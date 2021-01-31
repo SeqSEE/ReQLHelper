@@ -4,7 +4,8 @@
   "description": "* A simple light-weight helper for RethinkDB that utilizes and manages pool connections  \r ## Example Usage",
   "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --listEmittedFiles -p ."
   },
   "author": "",
   "license": "MIT",
